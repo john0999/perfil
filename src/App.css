@@ -36,3 +36,33 @@
     transform: rotate(360deg);
   }
 }
+
+/* src/App.css */
+.profile {
+  text-align: center;
+  padding: 20px;
+}
+
+.profile img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.profile h1 {
+  margin: 10px 0;
+}
+
+.profile p {
+  font-size: 16px;
+}
+
+.profile ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.profile li {
+  display: inline;
+  margin: 0 10px;
+}
