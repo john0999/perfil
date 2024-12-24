@@ -1,11 +1,9 @@
-import './App.css';
-// src/App.js
-import React from 'react';
+import './Styles/StylePerfil.css';
 import Profile from './components/perfil';
 
 const App = () => {
   return (
-    <div className="App">
+    <div>
       <Profile />
     </div>
   );
