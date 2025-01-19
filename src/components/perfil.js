@@ -1,6 +1,8 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import profileImage from '../images/image.jpeg';
+import programmerGif from '../images/CODIGO.gif';
+import sideImage from '../images/lenguajes.webp';
+
 const Profile = () => {
   const currentYear = new Date().getFullYear();
   const currentDate = new Date().toLocaleDateString();
@@ -10,8 +12,7 @@ const Profile = () => {
         <header>
           <nav>
             <ul>
-              <li><a href='#sobre-mi'>John L-JS</a></li>
-              <li><Link to="/servicios">Servicios</Link></li>
+              <li><a href='#sobre-mi'>JOHN ℳ৻₰</a></li>
             </ul>
           </nav>
         </header>
@@ -23,20 +24,17 @@ const Profile = () => {
           <h1 className='name'>JOHNNY MORALES GÓMEZ</h1>
           <section id="sobre-mi">
             <h1>Sobre mí</h1>
-            <p>¡Holaa!!... Hoy es {currentDate}, ¡es un buen día para aprender algo nuevo! 😁</p> <br/>
-            <p className='me'>Originario del Carmen, Chilón, Chiapas, MX, soy Desarrollador de software con 2 años de
-              experiencia creando interfaces atractivas y
-              funcionales, complementada con
-              habilidades en Back-End y desarrollo
-              móvil. Experto en HTML, CSS, JavaScript
-              y Laravel, además de experiencia en
-              aplicaciones móviles con Flutter y
-              Kotlin (Jetpack Compose).
-              Apasionado por la usabilidad y la
-              optimización, enfocado en crear
-              soluciones que mejoren la experiencia
-              del usuario. Abierto a aprender nuevas
-              tecnologías.
+            <p>¡Holaa!!... Hoy es {currentDate}, ¡es un buen día para aprender algo nuevo! 😁</p> <br />
+            <p className='me'>
+              Soy un apasionado Desarrollador de Software originario de Carmen, Chilón, Chiapas, MX, con 2 años de experiencia en la creación de interfaces atractivas y funcionales. Mi enfoque abarca tanto el Front-End como el Back-End, además de tener experiencia en desarrollo móvil.<br/><br/>
+
+              <b>Habilidades Técnicas:</b><br></br>
+              Front-End: HTML, CSS, JavaScript<br></br>
+              Back-End: Laravel, React, .NET<br></br>
+              Desarrollo Móvil: Flutter, Kotlin (Jetpack Compose)<br/><br/>
+              Mi objetivo es crear soluciones que no solo sean funcionales, sino que también ofrezcan una experiencia de usuario intuitiva y optimizada.
+
+              Soy un aprendiz constante, siempre dispuesto a explorar nuevas tecnologías y mejorar mis habilidades. Mi pasión por la usabilidad me motiva a trabajar en cada detalle para ofrecer productos que realmente marquen la diferencia.
             </p>
           </section>
           <section id="habilidades">
@@ -54,6 +52,31 @@ const Profile = () => {
               <li><p href="#">ING en Desarrollo y Gestión de software | Universidad Tecnológica de la Selva | 2023 - Actual</p></li>
             </ul>
           </section>
+          <div style={{ display: 'flex', padding: '20px', gap: '20px', backgroundColor: '#f9f9f9' }}>
+            <div style={{ flex: 2 }}>
+              <h1>Servicios</h1>
+              <p>Ofrezco los siguientes servicios:</p>
+              <ul>
+                <li>Desarrollo web con tecnologías modernas como React y Laravel.</li>
+                <li>Creación de aplicaciones móviles multiplataforma usando Flutter y Kotlin.</li>
+                <li>Optimización de bases de datos con MySQL, MongoDB y SQL Server.</li>
+                <li>Consultoría técnica y soporte en proyectos de software.</li>
+              </ul>
+            </div>
+            <div style={{ flex: 1, display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '15px' }}>
+              <img
+                src={programmerGif}
+                alt="Animación de programador"
+                style={{ width: '100%', maxWidth: '300px', height: 'auto', borderRadius: '10px' }}
+              />
+              <img
+                src={sideImage}
+                alt="Imagen lateral"
+                style={{ width: '100%', maxWidth: '300px', height: 'auto', borderRadius: '10px' }}
+              />
+            </div>
+          </div>
+
           <section id="contacto">
             <h1>Contacto</h1>
             <p>Correo electrónico: <a href="mailto:moralesgomezjohnny@gmail.com">moralesgomezjohnny@gmail.com</a></p>
