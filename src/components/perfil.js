@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import profileImage from '../images/image.jpeg';
 const Profile = () => {
   const currentYear = new Date().getFullYear();
@@ -9,10 +10,8 @@ const Profile = () => {
         <header>
           <nav>
             <ul>
-              <li><a href="#sobre-mi">Sobre mí</a></li>
-              <li><a href="#habilidades">Habilidades</a></li>
-              <li><a href="#educacion">Educación</a></li>
-              <li><a href="#contacto">Contacto</a></li>
+              <li><a href='#sobre-mi'>John L-JS</a></li>
+              <li><Link to="/servicios">Servicios</Link></li>
             </ul>
           </nav>
         </header>
