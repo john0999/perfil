@@ -23,6 +23,7 @@ const Profile = () => {
           <h1 className='name'>JOHNNY MORALES GÓMEZ</h1>
           <section id="sobre-mi">
             <h1>Sobre mí</h1>
+            <p>¡Holaa!!... Hoy es {currentDate}, ¡es un buen día para aprender algo nuevo! 😁</p> <br/>
             <p className='me'>Originario del Carmen, Chilón, Chiapas, MX, soy Desarrollador de software con 2 años de
               experiencia creando interfaces atractivas y
               funcionales, complementada con

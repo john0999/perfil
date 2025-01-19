@@ -7,11 +7,12 @@ import Servicios from './Pages/services';
 const App = () => {
   return (
     <Router>
-      <Routes>
-        <Route path="/" element={<Profile />} />
-        <Route path="/perfil" element={<Profile />} />
-        <Route path="/servicios" element={<Servicios />} />
-      </Routes>
+      <div>
+        <Routes>
+          <Route path="/" element={<Profile />} />
+          <Route path="/servicios" element={<Servicios />} />
+        </Routes>
+      </div>
     </Router>
   );
 };

@@ -10,10 +10,10 @@ const Servicios = () => {
         <nav>
           <ul style={{ display: 'flex', listStyle: 'none', padding: 0, margin: 0 }}>
             <li style={{ marginRight: '15px' }}>
-              <a href="/" style={{ textDecoration: 'none', color: '#fff' }}>Perfil</a>
+              <Link to="/" style={{ textDecoration: 'none', color: '#fff' }}>Perfil</Link>
             </li>
             <li>
-              <Link to="/servicios" style={{ textDecoration: 'none', color: '#fff' }}>Servicios</Link>
+            <a style={{ textDecoration: 'none', color: '#fff' }} href="#services">Servicios</a>
             </li>
           </ul>
         </nav>
