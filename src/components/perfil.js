@@ -80,7 +80,7 @@ const Profile = () => {
           <section id="contacto">
             <h1>Contacto</h1>
             <p>Correo electrónico: <a href="mailto:moralesgomezjohnny@gmail.com">moralesgomezjohnny@gmail.com</a></p>
-            <p>Teléfono: <a href="tel:6633273423">6633273423</a> | WhatsApp: <a href="tel:9191150285">9191150285</a></p>
+            <p>Teléfono: <a href="tel:6633273423">6633273423</a> | WhatsApp: <a href="https://wa.me/5219191150285" target="_blank">Enviar mensaje</a></p>
             <p>FaceBook: <a href="https://web.facebook.com/johnny.moralesgonez" target="_blank">Johnny Morales</a></p>
             <p>GitHub: <a href="https://github.com/john0999" target="_blank">john0999</a></p>
           </section>
