@@ -12,7 +12,7 @@ const Profile = () => {
         <header>
           <nav>
             <ul>
-              <li><a href='#sobre-mi'>JOHN ℳ৻₰</a></li>
+              <li><a href='#sobre-mi'>JOHNNY</a></li>
             </ul>
           </nav>
         </header>
