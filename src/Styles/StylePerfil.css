@@ -50,8 +50,8 @@ section {
   background-color: #ffffff;
   padding: 2em;
   margin-bottom: 20px;
-  border-radius: 8px; 
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); 
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
 }
 
 h1 {
@@ -60,7 +60,7 @@ h1 {
 }
 
 ul {
-  list-style-type: disc; 
+  list-style-type: disc;
   margin-left: 20px;
 }
 
@@ -78,8 +78,8 @@ a:hover {
 }
 
 footer {
-  background-color: #2c3e50; 
-  color: #ecf0f1; 
+  background-color: #2c3e50;
+  color: #ecf0f1;
   padding: 1.5em;
   text-align: center;
 }
@@ -89,7 +89,7 @@ footer {
   text-align: justify;
 }
 
-.name{
+.name {
   text-align: center;
 }
 
@@ -106,3 +106,24 @@ footer {
   margin-right: 20px;
 }
 
+.profile-img {
+  width: 40px;
+  /* Tamaño de la imagen */
+  height: 40px;
+  border-radius: 50%;
+  /* Hace la imagen circular */
+  margin-right: 8px;
+  /* Espaciado entre la imagen y el texto */
+  object-fit: cover;
+  /* Ajusta la imagen dentro del círculo */
+  border: 2px solid #ddd;
+  /* Opcional: Agrega un borde */
+}
+
+.profile-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #ffffff; /* Cambia según el diseño */
+  font-weight: bold;
+}

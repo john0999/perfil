@@ -1,7 +1,8 @@
 import React from 'react';
-import profileImage from '../images/image.jpeg';
-import programmerGif from '../images/CODIGO.gif';
+import profileImage from '../images/LOGO3.png';
+import programmerGif from '../images/codigo.gif';
 import sideImage from '../images/lenguajes.webp';
+import logos from '../images/LOGO3.png';
 
 const Profile = () => {
   const currentYear = new Date().getFullYear();
@@ -12,7 +13,12 @@ const Profile = () => {
         <header>
           <nav>
             <ul>
-              <li><a href='#sobre-mi'>JOHNNY</a></li>
+              <li>
+                <a href="#sobre-mi" className="profile-link">
+                  <img src={logos} alt="Johnny" className="profile-img" />
+                  JOHNNY
+                </a>
+              </li>
             </ul>
           </nav>
         </header>
