@@ -41,6 +41,53 @@ const Profile = () => {
               Soy un aprendiz constante, siempre dispuesto a explorar nuevas tecnologías y mejorar mis habilidades. Mi pasión por la usabilidad me motiva a trabajar en cada detalle para ofrecer productos que realmente marquen la diferencia.
             </p>
           </section>
+          <section id="portafolio">
+            <h1>Portafolio</h1>
+
+            <p><strong>1. Desarrollo Profesional</strong></p>
+            <p>
+              • Desarrollo Full Stack de la aplicación web <a href="https://www.veronicacorzo.com/" target="_blank">veronicacorzo.com</a>,
+              como parte de mi experiencia laboral en <a href="https://teknologix.mx/" target="_blank">Teknologix</a> durante el periodo de enero a abril.
+            </p>
+
+            <p><strong>2. Proyectos Personales</strong></p>
+            <ul>
+              <li>
+                Aplicación móvil multiplataforma desarrollada con Kotlin Multiplatform, compatible con iOS, Android y Windows.
+                El código está disponible para desarrolladores interesados.
+                🔗 Repositorio: <a href="https://github.com/john0999/NotasJM.git" target="_blank">NotasJM</a>
+              </li>
+              <li>
+                Proyecto básico en ASP.NET que facilita la creación de un CRUD, ideal para programadores que buscan una base eficiente y reutilizable.
+                🔗 Repositorio: <a href="https://github.com/john0999/AppSocial.git" target="_blank">AppSocial</a>
+              </li>
+              <li>
+                Aplicación para Google TV que permite consultar videos desde YouTube utilizando Retrofit y la API oficial de YouTube.
+                🔗 Repositorio: <a href="https://github.com/john0999/TVJohn.git" target="_blank">TVJohn</a>
+              </li>
+              <li>
+                Plataforma web para la gestión y carga local de videos, desarrollada en Laravel.
+                🔗 Repositorio: <a href="https://github.com/john0999/videos.git" target="_blank">videos</a>
+              </li>
+            </ul>
+
+            <p><strong>3. Proyectos Académicos e Integradores</strong></p>
+            <ul>
+              <li>
+                Plataforma web “Socialert” para la gestión de usuarios, alertas, reportes y visualización de ubicaciones en tiempo real.
+                🔒 Repositorio no disponible por derechos de autor.
+              </li>
+              <li>
+                Aplicación móvil “Socialert” para el registro de usuarios, envío de alertas y localización en tiempo real.
+                🔒 Repositorio no disponible por derechos de autor.
+              </li>
+              <li>
+                Aplicación móvil para Android que permite la autenticación de usuarios a través de su cuenta de X (anteriormente Twitter).
+                🔗 Repositorio: <a href="https://github.com/john0999/RedAutenApp.git" target="_blank">RedAutenApp</a>
+              </li>
+            </ul>
+          </section>
+
           <section id="habilidades">
             <h1>Habilidades</h1>
             <ul>
